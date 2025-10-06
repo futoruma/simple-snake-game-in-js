@@ -1,0 +1,55 @@
+:root {
+  --cell-size: 5vh;
+}
+
+* {
+  border: none;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #161616;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  color: #f0f0f0;
+  user-select: none;
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  background-color: #dfc687;
+}
+
+.row {
+  display: flex;
+}
+
+.apple {
+  height: var(--cell-size);
+  width: var(--cell-size);
+  background: linear-gradient(#bc4749, #8c1719);
+  border: 2px solid #7c0709;
+  border-radius: 50%;
+}
+
+.sand {
+  height: var(--cell-size);
+  width: var(--cell-size);
+}
+
+.snake {
+  height: var(--cell-size);
+  width: var(--cell-size);
+  background: linear-gradient(#386641, #184621);
+  border: 2px solid #184621;
+  border-radius: 10%;
+}
